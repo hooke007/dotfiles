@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigFile wmiPollInterval="1000">
+<IndexFile>C:\Tools\sub-font\FontIndex.xml</IndexFile>
+<MonitorProcess>mpvnet.exe</MonitorProcess>
+<MonitorProcess>mpv.exe</MonitorProcess>
+<MonitorProcess>mpc-be64.exe</MonitorProcess>
+<MonitorProcess>mpc-hc64.exe</MonitorProcess>
+<MonitorProcess>KikoPlay.exe</MonitorProcess>
+<MonitorProcess>vlc.exe</MonitorProcess>
+<MonitorProcess>PotPlayerMini64.exe</MonitorProcess>
+</ConfigFile>
