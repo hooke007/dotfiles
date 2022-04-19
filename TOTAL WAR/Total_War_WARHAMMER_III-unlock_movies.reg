@@ -1,0 +1,43 @@
+Windows Registry Editor Version 5.00
+
+; 导入注册表即可解锁 全面战争 战锤3 全影片
+; 需要UAC权限
+; 原文本编码为 Unicode
+; 换行符为 Windows(CR+LF)
+
+[HKEY_CURRENT_USER\Software\The Creative Assembly\Warhammer3\ScriptedValueRegistry]
+
+"cth_win"=dword:00000001
+
+"dae_win"=dword:00000001
+
+"belakor_1"=dword:00000001
+"belakor_2"=dword:00000001
+"belakor_3"=dword:00000001
+"belakor_4"=dword:00000001
+"journey_to_forge"=dword:00000001
+
+"kho_win_ska"=dword:00000001
+
+"ksl_win_kat"=dword:00000001
+"ksl_win_kot"=dword:00000001
+"ksl_intro_bor"=dword:00000001
+"ksl_win_bor"=dword:00000001
+
+"nur_win_plg"=dword:00000001
+
+"ogr_win_gre"=dword:00000001
+"ogr_win_skg"=dword:00000001
+
+"pro_win"=dword:00000001
+
+"rbool_load_intro_campaign"=dword:00000000
+"rbool_load_post_intro_campaign"=dword:00000000
+"rbool_load_open_campaign"=dword:00000000
+"rbool_load_post_open_campaign"=dword:00000000
+"rbool_load_tzeentch_campaign"=dword:00000000
+"rbool_load_khorne_campaign"=dword:00000000
+
+"sla_win_nka"=dword:00000001
+
+"tze_win_fat"=dword:00000001
