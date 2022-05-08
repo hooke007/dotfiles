@@ -150,14 +150,18 @@
 // [0,1] 默认0.5
 
   {"name":"LCAS","effects":[
-    {"effect":"LCAS","scale":[-1,-1],"sharpness":0.33,"threshold":0.2},
+    {"effect":"LCAS","scale":[-1,-1],"sharpness":0.5},
   ]},
-// [0,1] 默认0.33 ｜ [0,1] 默认0.2
+// [0,1] 默认0.5
 
   {"name":"LumaSharpen","effects":[
     {"effect":"LumaSharpen","sharpStrength":0.65,"sharpClamp":0.035,"pattern":1,"offsetBias":1},
   ]},
 // [1e-5,+∞] 默认0.65 ｜ [0,1] 默认0.035 ｜ [0,3] 取整 默认1 ｜ [0,+∞] 默认1
+
+  {"name":"MMPX","effects":[
+    {"effect":"MMPX"},
+  ]},
 
   {"name":"最邻近","effects":[
     {"effect":"Nearest","scale":[-1,-1]},
@@ -173,6 +177,14 @@
     {"effect":"NVSharpen","sharpness":0.5},
   ]},
 // 同上
+
+  {"name":"NNEDI3_16_8x4","effects":[
+    {"effect":"NNEDI3_nns16_win8x4"},
+  ]},
+
+  {"name":"NNEDI3_64_8x6","effects":[
+    {"effect":"NNEDI3_nns64_win8x6"},
+  ]},
 
   {"name":"Pixellate","effects":[
     {"effect":"Pixellate","scale":[-1,-1]},
