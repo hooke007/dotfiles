@@ -1,6 +1,6 @@
 [
 
-// 适用版本 Magpie dev v0.9
+// 适用版本 Magpie dev v0.10.0
 // 关于子选项数值的具体含义请阅读 https://github.com/Blinue/Magpie/wiki/自定义缩放配置
 
 // 调用单项着色器的示例
@@ -78,6 +78,22 @@
     {"effect":"Anime4K_Upscale_Denoise_L"},
   ]},
 
+    {"name":"A4K-放大-大大","effects":[
+    {"effect":"Anime4K_Upscale_VL"},
+  ]},
+
+  {"name":"A4K-放大-大大-降噪版","effects":[
+    {"effect":"Anime4K_Upscale_Denoise_VL"},
+  ]},
+
+    {"name":"A4K-放大-大大大","effects":[
+    {"effect":"Anime4K_Upscale_UL"},
+  ]},
+
+  {"name":"A4K-放大-大大大-降噪版","effects":[
+    {"effect":"Anime4K_Upscale_Denoise_UL"},
+  ]},
+
   {"name":"A4K-放大(GAN)-小","effects":[
     {"effect":"Anime4K_Upscale_GAN_x2_S"},
   ]},
@@ -100,10 +116,6 @@
     {"effect":"CAS_Scaling","scale":[-1,-1],"sharpness":0.4},
   ]},
 // 同上
-
-  {"name":"CatmullRom","effects":[
-    {"effect":"CatmullRom","scale":[-1,-1]},
-  ]},
 
   {"name":"FineSharp","effects":[
     {"effect":"FineSharp","sstr":2.0,"cstr":0.9,"xstr":0.19,"xrep":0.25},
@@ -138,6 +150,14 @@
   {"name":"FXAA抗锯齿-超级","effects":[
     {"effect":"FXAA_Ultra"},
   ]},
+
+  {"name":"图像调节","effects":[
+    {"effect":"ImageAdjustment",
+     "targetGamma":2.2,"monitorGamma":2.2,"saturation":1,"luminance":1,"contrast":1,
+     "brightBoost":0,"blackLevel":0,"r":1,"g":1,"b":1},
+  ]},
+// [1e-5,+∞] 默认2.2 ｜ [1e-5,+∞] 默认2.2 ｜ [0,+∞] 默认1 ｜ [0,+∞] 默认1 ｜ [0,+∞] 默认1
+// [-1,1] 默认0 ｜ [-1,1] 默认0 ｜ [0,+∞] 默认1 ｜ [0,+∞] 默认1 ｜ [0,+∞] 默认1
 
   {"name":"Jinc","effects":[
     {"effect":"Jinc","scale":[-1,-1],"windowSinc":0.5,"sinc":0.825,"ARStrength":0.5},
