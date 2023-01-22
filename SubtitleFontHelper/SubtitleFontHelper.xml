@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConfigFile wmiPollInterval="1000">
-<IndexFile>C:\Tools\sub-font\FontIndex.xml</IndexFile>
+<IndexFile>C:\Tools\fonts\FontIndex.xml</IndexFile>
 <MonitorProcess>mpvnet.exe</MonitorProcess>
 <MonitorProcess>mpv.exe</MonitorProcess>
 <MonitorProcess>mpc-be64.exe</MonitorProcess>
