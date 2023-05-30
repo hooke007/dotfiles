@@ -1,0 +1,686 @@
+{
+    "scalingModes": [
+        {
+            "name": "[COMB] fsr-full",
+            "effects": [
+                {
+                    "name": "FSR\\FSR_EASU",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                {
+                    "name": "FSR\\FSR_RCAS"
+                }
+            ]
+        },
+        {
+            "name": "[COMB] a4k-full",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Restore_L"
+                },
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_L"
+                },
+                {
+                    "name": "Bicubic",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k(3d)_x2",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_3D_Upscale_US"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k(3d)_x2_aa",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_3D_AA_Upscale_US"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_nr_mean",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Denoise_Bilateral_Mean"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_nr_med",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Denoise_Bilateral_Median"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_nr_mode",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Denoise_Bilateral_Mode"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_sharpen_m",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Restore_M"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_sharpen_l",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Restore_L"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_sharpen_vl",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Restore_VL"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_sharpen_ul",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Restore_UL"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_sharpen_aa_m",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Restore_Soft_M"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_sharpen_aa_l",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Restore_Soft_L"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_sharpen_aa_vl",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Restore_Soft_VL"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_sharpen_aa_ul",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Restore_Soft_UL"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_thinner_hq",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Thin_HQ"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_x2_s",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_S"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_x2_l",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_L"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_x2_vl",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_VL"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_x2_ul",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_UL"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k(gan)_x2_s",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_GAN_x2_S"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_x2_nr_s",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_Denoise_S"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_x2_nr_l",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_Denoise_L"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_x2_nr_vl",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_Denoise_VL"
+                }
+            ]
+        },
+        {
+            "name": "[IND] a4k_x2_nr_ul",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_Denoise_UL"
+                }
+            ]
+        },
+        {
+            "name": "[IND] acnet_x2",
+            "effects": [
+                {
+                    "name": "ACNet"
+                }
+            ]
+        },
+        {
+            "name": "[IND] bicubic_upscale_dscale",
+            "effects": [
+                {
+                    "name": "Bicubic",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] bilinear_upscale_dscale",
+            "effects": [
+                {
+                    "name": "Bilinear",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] cas_sharpen",
+            "effects": [
+                {
+                    "name": "CAS\\CAS"
+                }
+            ]
+        },
+        {
+            "name": "[IND] cas_sharpen_upscale",
+            "effects": [
+                {
+                    "name": "CAS\\CAS_Scaling",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] flash3kyuu_deband",
+            "effects": [
+                {
+                    "name": "Deband"
+                }
+            ]
+        },
+        {
+            "name": "[IND] fsr_upscale",
+            "effects": [
+                {
+                    "name": "FSR\\FSR_EASU",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] fsr_sharpen",
+            "effects": [
+                {
+                    "name": "FSR\\FSR_RCAS"
+                }
+            ]
+        },
+        {
+            "name": "[IND] fsrcnnx_2x",
+            "effects": [
+                {
+                    "name": "FSRCNNX\\FSRCNNX"
+                }
+            ]
+        },
+        {
+            "name": "[IND] fsrcnnx(anime)_x2",
+            "effects": [
+                {
+                    "name": "FSRCNNX\\FSRCNNX_LineArt"
+                }
+            ]
+        },
+        {
+            "name": "[IND] fxaa_aa_med",
+            "effects": [
+                {
+                    "name": "FXAA\\FXAA_Medium"
+                }
+            ]
+        },
+        {
+            "name": "[IND] fxaa_aa_high",
+            "effects": [
+                {
+                    "name": "FXAA\\FXAA_High"
+                }
+            ]
+        },
+        {
+            "name": "[IND] fxaa_aa_ul",
+            "effects": [
+                {
+                    "name": "FXAA\\FXAA_Ultra"
+                }
+            ]
+        },
+        {
+            "name": "[IND] nis_upscale_sharpen",
+            "effects": [
+                {
+                    "name": "NIS\\NIS",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] nvsharp_sharpen",
+            "effects": [
+                {
+                    "name": "NIS\\NVSharpen"
+                }
+            ]
+        },
+        {
+            "name": "[IND] nnedi3(nns16)_x2",
+            "effects": [
+                {
+                    "name": "NNEDI3\\NNEDI3_nns16_win8x4"
+                }
+            ]
+        },
+        {
+            "name": "[IND] nnedi3(nns64)_x2",
+            "effects": [
+                {
+                    "name": "NNEDI3\\NNEDI3_nns64_win8x6"
+                }
+            ]
+        },
+        {
+            "name": "[IND] imgadjust_eq",
+            "effects": [
+                {
+                    "name": "ImageAdjustment"
+                }
+            ]
+        },
+        {
+            "name": "[IND] jinc_upscale_dscale",
+            "effects": [
+                {
+                    "name": "Jinc",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] lanczos_upscale_dscale",
+            "effects": [
+                {
+                    "name": "Lanczos",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] nearest_upscale_dscale",
+            "effects": [
+                {
+                    "name": "Nearest",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] mmpx",
+            "effects": [
+                {
+                    "name": "Pixel Art\\MMPX"
+                }
+            ]
+        },
+        {
+            "name": "[IND] pixlate_upscale",
+            "effects": [
+                {
+                    "name": "Pixel Art\\Pixellate",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] bilinear(sharp)_upscale",
+            "effects": [
+                {
+                    "name": "Pixel Art\\SharpBilinear",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] ravu_x2_r3(lite)",
+            "effects": [
+                {
+                    "name": "RAVU\\RAVU_Lite_R3"
+                }
+            ]
+        },
+        {
+            "name": "[IND] ravu(zoom)_upscale_r3",
+            "effects": [
+                {
+                    "name": "RAVU\\RAVU_Zoom_R3",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] ssimds_dscale",
+            "effects": [
+                {
+                    "name": "SSimDownscaler",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] smaa_aa_low",
+            "effects": [
+                {
+                    "name": "SMAA\\SMAA_Low"
+                }
+            ]
+        },
+        {
+            "name": "[IND] smaa_aa_med",
+            "effects": [
+                {
+                    "name": "SMAA\\SMAA_Medium"
+                }
+            ]
+        },
+        {
+            "name": "[IND] smaa_aa_high",
+            "effects": [
+                {
+                    "name": "SMAA\\SMAA_High"
+                }
+            ]
+        },
+        {
+            "name": "[IND] smaa_aa_ul",
+            "effects": [
+                {
+                    "name": "SMAA\\SMAA_Ultra"
+                }
+            ]
+        },
+        {
+            "name": "[IND] adaptsharp_sharpen",
+            "effects": [
+                {
+                    "name": "Sharpen\\AdaptiveSharpen"
+                }
+            ]
+        },
+        {
+            "name": "[IND] finesharp_sharpen",
+            "effects": [
+                {
+                    "name": "Sharpen\\FineSharp"
+                }
+            ]
+        },
+        {
+            "name": "[IND] lcas_upscale_sharpen",
+            "effects": [
+                {
+                    "name": "Sharpen\\LCAS",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] lumasharp_sharpen",
+            "effects": [
+                {
+                    "name": "Sharpen\\LumaSharpen"
+                }
+            ]
+        },
+        {
+            "name": "[IND] xbrz_x2",
+            "effects": [
+                {
+                    "name": "xBRZ\\xBRZ_2x"
+                }
+            ]
+        },
+        {
+            "name": "[IND] xbrz_x3",
+            "effects": [
+                {
+                    "name": "xBRZ\\xBRZ_3x"
+                }
+            ]
+        },
+        {
+            "name": "[IND] xbrz_x4",
+            "effects": [
+                {
+                    "name": "xBRZ\\xBRZ_4x"
+                }
+            ]
+        },
+        {
+            "name": "[IND] xbrz_x5",
+            "effects": [
+                {
+                    "name": "xBRZ\\xBRZ_5x"
+                }
+            ]
+        },
+        {
+            "name": "[IND] xbrz_x6",
+            "effects": [
+                {
+                    "name": "xBRZ\\xBRZ_6x"
+                }
+            ]
+        },
+        {
+            "name": "[IND] xbrz_upscale",
+            "effects": [
+                {
+                    "name": "xBRZ\\xBRZ_Freescale",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] crt(easy)",
+            "effects": [
+                {
+                    "name": "CRT\\CRT_Easymode",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] crt(geom)",
+            "effects": [
+                {
+                    "name": "CRT\\CRT_Geom",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] crt(hylian)",
+            "effects": [
+                {
+                    "name": "CRT\\CRT_Hyllian",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] crt(lottes)",
+            "effects": [
+                {
+                    "name": "CRT\\CRT_Lottes",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[IND] crt(gtu)",
+            "effects": [
+                {
+                    "name": "CRT\\GTU_v050",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        }
+    ]
+}
